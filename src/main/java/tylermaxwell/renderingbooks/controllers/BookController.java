@@ -22,6 +22,6 @@ public class BookController {
         Book book = bookService.findBook(bookId);
         model.addAttribute("book", book);
         System.out.println(book.getTitle());
-        return "index.jsp";
+        return "show.jsp";
     }
 }

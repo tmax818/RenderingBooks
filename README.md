@@ -54,7 +54,7 @@ to [application.properties](src/main/resources/application.properties)!! I sure 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 ```
 
-to [index.jsp](src/main/webapp/WEB-INF/index.jsp)
+to [show.jsp](src/main/webapp/WEB-INF/show.jsp)
 ## Tasks
 
 - [ ] Create a second controller in your books project called [BookController](src/main/java/tylermaxwell/renderingbooks/controllers/BookController.java) that will have the `@Controller `annotation.
